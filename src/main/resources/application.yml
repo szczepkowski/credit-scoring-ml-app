@@ -1,4 +1,9 @@
+server:
+  connection-timeout: 10s
 spring:
+  mvc:
+    servlet:
+      path: /api
   application:
     name: scoring
   data:
